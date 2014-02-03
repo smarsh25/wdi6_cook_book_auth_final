@@ -5,6 +5,7 @@ User.delete_all
 
 m = User.create(:name => 'Markus',  email: "mguehrs@gmail.com", password: "foobar123", password_confirmation: "foobar123")
 r = User.create(:name => 'Raphael', :email => "rafi.sofaer@generalassemb.ly", :password => "asdasd", :password_confirmation => "asdasd")
+sm = User.create(:name => 'Steve', :email => "steve@gmail.com", :password => "stevem", :password_confirmation => "stevem")
 
 b1 = Book.create(:user => m, :title => 'La Cuisine', :cuisine => 'French', :chef => 'Francoise Bernard', :image => 'http://4.bp.blogspot.com/-KgaF17qZ1Gg/TbcnZg9s2BI/AAAAAAAAAuk/Y6DffqIjWJo/s1600/3_la-cuisine-everyday-french-home-cooking-by-francoise-bernard_7-best-books-on-french-cuisine.jpg')
 
